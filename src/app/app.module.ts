@@ -32,7 +32,7 @@ import {HttpClientModule} from '@angular/common/http';
      
     ])
   ],
-  providers: [WorldService,WorldHttpService],
+  providers: [WorldHttpService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

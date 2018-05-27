@@ -9,7 +9,7 @@ import { Subscription } from 'rxjs/Subscription';
   selector: 'app-countries-view',
   templateUrl: './countries-view.component.html',
   styleUrls: ['./countries-view.component.css'],
-  providers: [Location]
+  
 })
 export class CountriesViewComponent implements OnInit,OnDestroy {
 public allCountries;
